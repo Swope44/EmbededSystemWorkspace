@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+*.a
+*.d
+*.dSYM/
+
+# Arduino/PlatformIO
+.pio/
+.arduino*
+
+# VS Code settings
+.vscode/
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*.swo
+
+# Ignore build folders for each platform
+esp32/build/
+arduino/build/
+raspberrypi/build/
